@@ -1,14 +1,15 @@
 <template>
-  <v-app dark>
-    <v-main>
-      <Navigation />
-      <v-container>
+  <v-app>
+    <Navigation />
+    <v-sheet
+      id="scrolling-techniques-5"
+      class="overflow-y-auto"
+      max-height="600"
+    >
+      <v-container style="height: 1500px">
         <nuxt />
       </v-container>
-    </v-main>
-    <v-footer :absolute="!fixed" app>
-      <span>&copy; {{ new Date().getFullYear() }} Black Hills Gear</span>
-    </v-footer>
+    </v-sheet>
   </v-app>
 </template>
 
