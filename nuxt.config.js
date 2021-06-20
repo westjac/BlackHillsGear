@@ -9,7 +9,7 @@ export default {
 
   // Global page headers (https://go.nuxtjs.dev/config-head)
   head: {
-    titleTemplate: '%s - Black Hills Gear',
+    titleTemplate: '%s',
     title: 'Black Hills Gear',
     meta: [
       { charset: 'utf-8' },
@@ -21,10 +21,6 @@ export default {
         rel: 'icon',
         type: 'image/x-icon',
         href: '/favicon.ico',
-      },
-      {
-        rel: 'stylesheet',
-        href: 'https://fonts.googleapis.com/css2?family=DM+Serif+Displayfamily=PT+Sans:700|Playfair+Display',
       },
     ],
   },
