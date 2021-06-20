@@ -10,6 +10,7 @@ export default {
       <div class="row">
         <div class="col-lg-8 offset-lg-2">
           <h1 class="section-title text-center">Products</h1>
+          <div class="ec-cart-widget"></div>
           <div id="app">
             <Ecwid :storeId="11279422" />
           </div>
