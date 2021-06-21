@@ -11,7 +11,7 @@
         <ContactForm />
       </v-col>
       <v-col>
-        <v-img src="BHG-Logo_White.svg"></v-img>
+        <v-img :src="require('@/assets/logo/BHG-Logo_White.svg')"></v-img>
         <br />
         <p class="contactText">
           Questions? Comments? Want to know more about our product? Shoot us a

@@ -18,12 +18,18 @@
         </p>
       </v-col>
       <v-col cols="4">
-        <v-img height="100%" src="./images/BHG_Hat.jpg"> </v-img>
+        <v-img height="100%" :src="require('@/assets/img/BHG_Hat.jpg')">
+        </v-img>
       </v-col>
     </v-row>
     <v-row justify="center">
       <v-col cols="4">
-        <v-img height="100%" src="./images/paul.jpg"> </v-img>
+        <v-img
+          position="right bottom"
+          height="70%"
+          :src="require('@/assets/img/paul.jpg')"
+        >
+        </v-img>
       </v-col>
       <v-col cols="7">
         <h1 class="title">About The Owner</h1>

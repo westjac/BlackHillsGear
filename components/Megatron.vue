@@ -8,28 +8,25 @@
     >
       <v-carousel-item
         class="darkened-image"
-        v-for="(item, i) in items"
-        :key="i"
-        :src="item.src"
+        :src="require('@/assets/img/bestgun.jpg')"
+      ></v-carousel-item>
+      <v-carousel-item
+        class="darkened-image"
+        :src="require('@/assets/img/truckgun.jpg')"
       ></v-carousel-item>
     </v-carousel>
-    <img class="logo child" height="300px" src="/BHG-Logo_White.svg" />
+    <img
+      class="logo child"
+      height="300px"
+      :src="require('@/assets/logo/BHG-Logo_White.svg')"
+    />
   </div>
 </template>
 
 <script>
 export default {
   data() {
-    return {
-      items: [
-        {
-          src: '/images/bestgun.jpg',
-        },
-        {
-          src: '/images/truckgun.jpg',
-        },
-      ],
-    }
+    return {}
   },
 }
 </script>

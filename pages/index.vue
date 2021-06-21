@@ -18,10 +18,13 @@
           </p>
         </v-col>
         <v-col cols="6">
-          <v-img height="100%" src="/images/bestgun.jpg"></v-img>
+          <v-img
+            height="80%"
+            :src="require('@/assets/img/bestgun.jpg')"
+          ></v-img>
         </v-col>
       </v-row>
-      <div style="height: 300px"></div>
+      <div style="height: 100px"></div>
     </v-container>
   </main>
 </template>
