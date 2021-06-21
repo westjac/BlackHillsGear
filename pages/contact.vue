@@ -8,7 +8,7 @@
     </v-row>
     <v-row>
       <v-col cols="6">
-        <HTMLContactForm />
+        <ContactForm />
       </v-col>
       <v-col>
         <v-img src="BHG-Logo_White.svg"></v-img>

@@ -1,20 +1,14 @@
+<!--This must have the same fields as the coresponding forms on the application-->
+
 <form
-    name="ask-question"
+    name="contactUs"
     method="post"
     netlify
     data-netlify-honeypot="bot-field"
   >
-    <input type="hidden" name="form-name" value="ask-question" />
-    <label v-for="(panelist, index) in panelists" :key="index">
-      <input
-        type="radio"
-        name="panelist"
-        :value="panelist"
-        @input="(ev) => updatePanelist"
-        :checked="panelist === currentPanelist"
-      />
-      <span>{{ panelist }}</span>
-    </label>
-    ...
-    <button>Submit</button>
+    <input type="hidden" name="form-name" value="contactUs" />
+      <input type="text" name="name" value="name" />
+      <input type="text" name="email" value="email" />
+      <input type="text" name="cellPhone" value="cellPhone" />
+      <textarea type="text" name="message" value="message" />
   </form>
