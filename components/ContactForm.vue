@@ -1,13 +1,13 @@
 <template>
   <v-form
-    name="contactUs"
+    name="Contact"
     ref="form"
     v-model="valid"
     method="POST"
     data-netlify="true"
     data-netlify-honeypot="bot-field"
   >
-    <input type="hidden" name="form-name" value="contactUs" />
+    <input type="hidden" name="form-name" value="Contact" />
     <v-text-field
       solo
       v-model="name"
