@@ -6,8 +6,35 @@
 /* Color Source: https://color.adobe.com/search?q=Outdoor&t=hex */
 /* Color Theme Swatches in Hex */
 $Primary: #013440;
-$SecondaryTint: #93B7BF;
-$Secondary: #A0D3D9;
-$ComplimentTint: #D9B68B;
-$Compliment: #A69580;
+$SecondaryTint: #93b7bf;
+$Secondary: #a0d3d9;
+$ComplimentTint: #d9b68b;
+$Compliment: #a69580;
 
+$font-size-root: 18px;
+$body-font-family: 'Chivo', sans-serif;
+$heading-font-family: 'Volkhov', serif;
+$heading-font-weight: 700;
+
+$headings: (
+  'h6': (
+    'size': 2rem,
+  ),
+);
+
+// <style>
+// .v-application {
+//   font-family: 'Chivo', sans-serif !important;
+// }
+// .v-application .title {
+//   font-family: 'Volkhov', serif !important;
+//   font-weight: 700;
+//   font-size: 2.5rem !important;
+// }
+
+// .v-application .header {
+//   font-family: 'Volkhov', serif !important;
+//   font-weight: 700;
+//   font-size: 3rem !important;
+// }
+// </style>
