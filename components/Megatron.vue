@@ -8,7 +8,6 @@
     >
       <v-carousel-item
         class="darkened-image"
-        transition="fade-transition"
         v-for="(item, i) in items"
         :key="i"
         :src="item.src"

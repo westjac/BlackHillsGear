@@ -15,8 +15,8 @@
         <v-toolbar-items>
           <v-btn href="/" text> Home </v-btn>
           <v-btn href="/store" text> Store </v-btn>
-          <v-btn href="/" text> About </v-btn>
-          <v-btn href="/" text> Contact </v-btn>
+          <v-btn href="/about" text> About </v-btn>
+          <v-btn href="/contact" text> Contact </v-btn>
         </v-toolbar-items>
       </v-row>
     </v-container>
@@ -29,6 +29,7 @@
 .navTitle {
   letter-spacing: 0.1em;
   font-weight: 600;
+  /*font-family: 'volkhov', serif !important; */
 }
 .larger {
   font-size: 130%;

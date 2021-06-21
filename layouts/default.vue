@@ -17,4 +17,10 @@
   font-weight: 700;
   font-size: 2.5rem !important;
 }
+
+.v-application .header {
+  font-family: 'Volkhov', serif !important;
+  font-weight: 700;
+  font-size: 3rem !important;
+}
 </style>

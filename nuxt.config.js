@@ -23,8 +23,8 @@ export default {
         href: '/favicon.ico',
       },
       {
-        rel: "stylesheet",
-        href: "https://fonts.googleapis.com/css2?family=Chivo&family=Volkhov:wght@700&display=swap",
+        rel: 'stylesheet',
+        href: 'https://fonts.googleapis.com/css2?family=Chivo&family=Volkhov:wght@700&display=swap',
       },
     ],
   },
@@ -54,6 +54,7 @@ export default {
     '@nuxtjs/pwa',
     // https://go.nuxtjs.dev/content
     '@nuxt/content',
+    '@nuxtjs/dotenv',
   ],
 
   // Axios module configuration (https://go.nuxtjs.dev/config-axios)

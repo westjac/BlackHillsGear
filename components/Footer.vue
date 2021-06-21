@@ -14,7 +14,11 @@
         </v-icon>
       </v-btn>
       <v-col class="lighten-4 py-4 text-center white--text" cols="12">
-        {{ new Date().getFullYear() }} — <strong>Black Hills Gear</strong>
+        &copy; {{ new Date().getFullYear() }} —
+        <strong>Black Hills Gear</strong> | Website by
+        <a href="http://jacobwestcreative.com" target="_blank"
+          >Jacob West Creative</a
+        >
       </v-col>
     </v-row>
   </v-footer>
