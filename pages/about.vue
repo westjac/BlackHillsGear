@@ -1,7 +1,7 @@
 <template>
   <v-container mt-6>
     <v-row justify="center">
-      <v-col cols="7">
+      <v-col :xs="12" :sm="7">
         <h1 class="title">About Black Hills Gear</h1>
         <br />
         <p>
@@ -17,21 +17,16 @@
           from US suppliers.
         </p>
       </v-col>
-      <v-col cols="4">
+      <v-col :xs="12" :sm="4">
         <v-img height="100%" :src="require('@/assets/img/BHG_Hat.jpg')">
         </v-img>
       </v-col>
     </v-row>
     <v-row justify="center">
-      <v-col cols="4">
-        <v-img
-          position="right bottom"
-          height="70%"
-          :src="require('@/assets/img/paul.jpg')"
-        >
-        </v-img>
+      <v-col :xs="12" :sm="4">
+        <v-img height="100%" :src="require('@/assets/img/paul.jpg')"> </v-img>
       </v-col>
-      <v-col cols="7">
+      <v-col :xs="12" :sm="7">
         <h1 class="title">About The Owner</h1>
         <br />
         <p>

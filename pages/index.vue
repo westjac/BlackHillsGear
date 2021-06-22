@@ -7,7 +7,7 @@
     </v-row>
     <v-container my-4>
       <v-row justify="center">
-        <v-col cols="4">
+        <v-col :xs="8" :sm="4">
           <h1 class="title">Post Your Pics!</h1>
           <br />
           <p>
@@ -17,7 +17,7 @@
             post them for advertizing purposes.
           </p>
         </v-col>
-        <v-col cols="6">
+        <v-col :xs="8" :sm="6">
           <v-img
             height="80%"
             :src="require('@/assets/img/bestgun.jpg')"

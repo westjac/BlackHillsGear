@@ -35,9 +35,7 @@ export default {
 .darkened-image {
   filter: brightness(20%);
 }
-.logo {
-  filter: drop-shadow(0px 3px 10px rgba(0, 0, 0, 1));
-}
+
 .parent {
   display: grid;
   position: relative;

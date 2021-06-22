@@ -7,3 +7,13 @@
     <Footer />
   </v-app>
 </template>
+
+<style>
+html,
+body {
+  overflow-x: hidden;
+}
+body {
+  position: relative;
+}
+</style>

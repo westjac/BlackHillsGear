@@ -35,7 +35,9 @@
       label="Message"
       v-model="message"
     ></v-textarea>
-    <v-btn class="mr-4" type="submit" :disabled="false"> submit </v-btn>
+    <div class="d-flex justify-center">
+      <v-btn type="submit" :disabled="false"> submit </v-btn>
+    </div>
   </v-form>
 </template>
 

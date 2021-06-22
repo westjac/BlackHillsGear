@@ -6,12 +6,16 @@
         <br />
       </v-col>
     </v-row>
-    <v-row>
-      <v-col cols="6">
+    <v-row justify="center">
+      <v-col :xs="12" :md="5">
         <ContactForm />
       </v-col>
-      <v-col>
-        <v-img :src="require('@/assets/logo/BHG-Logo_White.svg')"></v-img>
+      <v-col :xs="12" :md="5">
+        <v-img
+          contain
+          height="225px"
+          :src="require('@/assets/logo/BHG-Logo_White.svg')"
+        ></v-img>
         <br />
         <p class="contactText">
           Questions? Comments? Want to know more about our product? Shoot us a
