@@ -1,6 +1,7 @@
 <template>
   <div class="parent">
     <v-carousel
+      class="megatron"
       hide-delimiters
       :show-arrows="false"
       :continuous="true"
@@ -48,9 +49,15 @@ export default {
   position: absolute;
   margin: auto;
   position: absolute;
-  top: 0;
+  top: 2em;
   left: 0;
   bottom: 0;
   right: 0;
+}
+
+@media screen and (max-width: 960px) {
+  .megatron {
+    height: 360px !important;
+  }
 }
 </style>
