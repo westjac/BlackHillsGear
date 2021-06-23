@@ -27,16 +27,16 @@
 <script>
 export default {
   data: () => ({
-    socialMedias: [
-      {
-        icon: 'mdi-facebook',
-        link: 'https://www.facebook.com/BlackHillsGear/',
-      },
-      {
-        icon: 'mdi-instagram',
-        link: 'https://www.facebook.com/BlackHillsGear/',
-      },
-    ],
+    // socialMedias: [
+    //   {
+    //     icon: 'mdi-facebook',
+    //     link: 'https://www.facebook.com/BlackHillsGear/',
+    //   },
+    //   {
+    //     icon: 'mdi-instagram',
+    //     link: 'https://www.facebook.com/BlackHillsGear/',
+    //   },
+    // ],
   }),
 }
 </script>
