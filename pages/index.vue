@@ -1,3 +1,4 @@
+/* eslint-disable */
 <template>
   <main>
     <v-row justify="center">
@@ -12,9 +13,9 @@
           <br />
           <p>
             Share your pictures of your Black Hills Gear with us and we might
-            just share them on the web! Use the hashtag #BlackHillsGear on
-            Facebook and Instagram! By sending us photos, you agree to let us
-            post them for advertizing purposes.
+            just share them on the web! Use the hashtag #BlackHillsGear! By
+            sending us photos, you agree to let us post them for advertizing
+            purposes.
           </p>
         </v-col>
         <v-col :xs="8" :sm="6">
@@ -52,3 +53,4 @@ export default {
   },
 }
 </script>
+/* eslint-disable */
