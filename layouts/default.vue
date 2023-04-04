@@ -2,9 +2,9 @@
   <v-app>
     <Navigation />
     <v-main>
-      <v-alert dense outlined prominent text dismissible type="warning"
+      <!-- <v-alert dense outlined prominent text dismissible type="warning"
         >Currently away and will process orders in the first week in April. Thanks
-      </v-alert>
+      </v-alert> -->
       <nuxt id="siteContent" />
     </v-main>
     <Footer />
