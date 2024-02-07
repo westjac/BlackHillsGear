@@ -2,9 +2,9 @@
   <v-app>
     <Navigation />
     <v-main>
-      <v-alert dense outlined prominent text dismissible type="warning"
+      <!--<v-alert dense outlined prominent text dismissible type="warning"
         >Orders will be delayed till February 15th. Sorry for the inconvenience.
-      </v-alert>
+      </v-alert>-->
       <nuxt id="siteContent" />
     </v-main>
     <Footer />
